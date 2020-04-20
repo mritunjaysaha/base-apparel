@@ -1,33 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Base Apparel coming soon page</title>
-
+  <link rel="stylesheet" href="style.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+
   </style>
 </head>
+
 <body>
 
-  We're coming soon
+  <main class="main">
+    <div class="contents">
+      <nav class="logo"><img src="./images/logo.svg"></nav>
+      <img class="image-mobile" src="./images/hero-mobile.jpg" alt="">
 
-  Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.
+      <div class="heading">
+        <h1 class="h1-red">We're</h1>
+        <h1 class="h1-bold">coming</h1>
+        <h1 class="h1-bold">soon</h1>
+        <p class="p-text">
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our launch deals.
+        </p>
+        <form class="form" novalidate="true">
+          <input class="form-input" type="email" placeholder="Email Address"
+            pattern="^([A-Za-z\d.-]+)@([a-z\d]+)(\.[a-z]{2,24}){1,8}$" required>
+          <img class="form-error-icon" src="./images/icon-error.svg" alt="">
+          <button class="form-button button" type="submit">
+            <img class="button-icon" src="./images/icon-arrow.svg" alt="" srcset="">
+          </button>
+        </form>
+      </div>
 
-  Email Address
-  
+    </div>
+    <img class="image-desktop" src="./images/hero-desktop.jpg" alt="">
+
+  </main>
+
+
   <footer>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Your Name Here</a>.
     </p>
   </footer>
+
+  <script src="./index.js"></script>
 </body>
+
 </html>
