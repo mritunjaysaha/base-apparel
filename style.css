@@ -77,18 +77,18 @@ body {
     /* opacity: 0.5; */
 }
 .button {
-    /* position: absolute;
+    position: absolute;
     display: inline-block;
     border: none;
     border-radius: 2em;
     width: 5em;
-    height: 3.5em; */
+    height: 3.5em;
     /* margin-top: -3em; */
-    /* margin-left: -4.5em; */
-    /* background-image: linear-gradient(var(--secondary-gradient));
+    margin-left: -4.5em;
+    background-image: linear-gradient(var(--secondary-gradient));
     box-shadow: 0 1rem 2rem -0.5rem var(--desaturated-red);
     cursor: pointer;
-    z-index: 1; */
+    z-index: 1;
 }
 .button:hover {
     opacity: 1;
